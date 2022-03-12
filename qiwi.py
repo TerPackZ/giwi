@@ -133,6 +133,7 @@ elif a == "3":
 
 elif a == "4":
     os.system("termux-open-url 'https://t.me/TerPackZ'")
+    ezit()
 else:
 	print(Fore.RED + " Выбран неверный параметр | No found such parametr")
 	
